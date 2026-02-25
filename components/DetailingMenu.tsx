@@ -1,0 +1,138 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Sparkles, Shield, Star, Check } from 'lucide-react';
+
+const DetailingMenu: React.FC = () => {
+  const packages = [
+    {
+      icon: <Sparkles className="w-6 h-6 text-[#FF9E2C]" />,
+      title: 'Basic Exterior',
+      price: '$69 – $109',
+      priceNote: 'Coupe | Sedan/SUV | Full Size',
+      description: 'Perfect for a quick, high-quality exterior clean',
+      features: [
+        'Soft hand mitt foam wash',
+        'Wheel well & front wheel wash',
+        'Bug removal & towel dry'
+      ],
+      popular: false
+    },
+    {
+      icon: <Shield className="w-6 h-6 text-[#FF9E2C]" />,
+      title: 'Basic Full Car',
+      price: '$129 – $209',
+      priceNote: 'Coupe | Sedan/SUV | Full Size',
+      description: 'Interior & exterior refresh for your vehicle',
+      features: [
+        'Complete interior wipe down & vacuum',
+        'Full exterior wash & dry',
+        'Windows & windshield cleaned'
+      ],
+      popular: true
+    },
+    {
+      icon: <Star className="w-6 h-6 text-[#FF9E2C]" />,
+      title: 'Complete Full Car',
+      price: '$249 – $359',
+      priceNote: 'Coupe | Sedan/SUV | Full Size',
+      description: 'Keep your vehicle looking its very best',
+      features: [
+        'Steam cleaning & shampoo extraction',
+        'Ceramic foam sealant protection',
+        'Premium finish inside & out'
+      ],
+      popular: false
+    }
+  ];
+
+  return (
+    <section className="py-20 bg-black px-4 md:px-16">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-light text-white mb-4">
+            Detailing <span className="italic text-[#FF9E2C]">Menu</span>
+          </h2>
+          <p className="text-gray-400 text-lg">
+            Pricing may vary depending on the cleanliness or complexity of your vehicle
+          </p>
+        </div>
+
+        {/* Pricing Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          {packages.map((pkg, idx) => (
+            <div 
+              key={idx} 
+              className={`relative bg-transparent border rounded-xl p-8 flex flex-col ${
+                pkg.popular ? 'border-[#FF9E2C]' : 'border-gray-800'
+              }`}
+            >
+              {/* Popular Badge */}
+              {pkg.popular && (
+                <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+                  <span className="bg-[#FF9E2C] text-black text-xs font-bold px-4 py-1 rounded-sm uppercase tracking-wider">
+                    Popular
+                  </span>
+                </div>
+              )}
+
+              {/* Icon */}
+              <div className="border border-[#FF9E2C] p-3 rounded-lg w-fit mb-6">
+                {pkg.icon}
+              </div>
+
+              {/* Title & Price */}
+              <h3 className="text-[#FF9E2C] text-xl font-semibold mb-2">{pkg.title}</h3>
+              <p className="text-white text-3xl font-bold mb-1">{pkg.price}</p>
+              {pkg.priceNote && (
+                <p className="text-gray-500 text-sm mb-4">{pkg.priceNote}</p>
+              )}
+              {!pkg.priceNote && <div className="mb-4"></div>}
+
+              {/* Description */}
+              <p className="text-gray-400 mb-6 min-h-[48px]">{pkg.description}</p>
+
+              {/* Features */}
+              <ul className="space-y-3 mb-8">
+                {pkg.features.map((feature, featureIdx) => (
+                  <li key={featureIdx} className="flex items-start gap-3">
+                    <Check className="w-5 h-5 text-[#FF9E2C] flex-shrink-0 mt-0.5" />
+                    <span className="text-gray-300">{feature}</span>
+                  </li>
+                ))}
+              </ul>
+
+              {/* CTA Button */}
+              <a 
+                href="tel:5126797853"
+                className="block w-full text-center bg-[#FF9E2C] hover:bg-yellow-400 text-black font-bold py-3 px-6 rounded-lg transition-all transform hover:scale-105 mt-auto"
+              >
+                Call to Book
+              </a>
+            </div>
+          ))}
+        </div>
+
+        {/* View Full Pricing Button */}
+        <div className="text-center mb-8">
+          <Link
+            to="/pricing"
+            className="inline-block border-2 border-[#FF9E2C] text-[#FF9E2C] hover:bg-[#FF9E2C] hover:text-black font-bold py-3 px-8 rounded-lg transition-all"
+          >
+            View Full Pricing Menu
+          </Link>
+        </div>
+
+        {/* Basic Service Note */}
+        <div className="bg-stone-900/50 border border-stone-800 rounded-xl p-6 text-center">
+          <p className="text-gray-300">
+            <span className="text-[#FF9E2C] font-semibold">Basic Interior from $69</span>
+            <span className="text-gray-400"> — Best for vehicles that only need a quick vacuuming and complete wipe down</span>
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default DetailingMenu;
