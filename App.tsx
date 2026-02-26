@@ -35,6 +35,9 @@ import CedarParkAutoDetailing from './pages/CedarParkAutoDetailing';
 import GeorgetownAutoDetailing from './pages/GeorgetownAutoDetailing';
 import PflugervilleAutoDetailing from './pages/PflugervilleAutoDetailing';
 import LeanderAutoDetailing from './pages/LeanderAutoDetailing';
+import BriarcliffAutoDetailing from './pages/BriarcliffAutoDetailing';
+import LagoVistaAutoDetailing from './pages/LagoVistaAutoDetailing';
+import SteinerRanchAutoDetailing from './pages/SteinerRanchAutoDetailing';
 
 const App: React.FC = () => {
   return (
@@ -77,6 +80,9 @@ const App: React.FC = () => {
             <Route path="/georgetown-auto-detailing" element={<GeorgetownAutoDetailing />} />
             <Route path="/pflugerville-auto-detailing" element={<PflugervilleAutoDetailing />} />
             <Route path="/leander-auto-detailing" element={<LeanderAutoDetailing />} />
+            <Route path="/briarcliff-auto-detailing" element={<BriarcliffAutoDetailing />} />
+            <Route path="/lago-vista-auto-detailing" element={<LagoVistaAutoDetailing />} />
+            <Route path="/steiner-ranch-auto-detailing" element={<SteinerRanchAutoDetailing />} />
           </Routes>
       </main>
 

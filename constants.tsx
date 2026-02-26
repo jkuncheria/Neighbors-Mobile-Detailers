@@ -29,6 +29,9 @@ export const NAV_ITEMS: NavItem[] = [
       { label: 'Georgetown', href: '/georgetown-auto-detailing' },
       { label: 'Pflugerville', href: '/pflugerville-auto-detailing' },
       { label: 'Leander', href: '/leander-auto-detailing' },
+      { label: 'Briarcliff', href: '/briarcliff-auto-detailing' },
+      { label: 'Lago Vista', href: '/lago-vista-auto-detailing' },
+      { label: 'Steiner Ranch', href: '/steiner-ranch-auto-detailing' },
     ]
   },
   { label: 'Gallery', href: '/gallery' },
