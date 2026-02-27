@@ -82,7 +82,7 @@ const FleetWashing: React.FC = () => {
         title="Fleet Washing Austin | Commercial Vehicle Detailing Services"
         description="Professional fleet washing and commercial vehicle detailing in Austin. Keep your business vehicles clean and professional. Volume discounts available. Free quotes."
         keywords="fleet washing Austin, commercial vehicle detailing, fleet cleaning, business vehicle wash, truck washing, van detailing Austin"
-        canonical="https://www.oldtownautospa.com/fleet-washing"
+        canonical="https://www.neighborsmobiledetailer.com/fleet-washing"
         serviceSchema={{
           name: "Fleet Washing",
           description: "Commercial fleet washing and detailing services for businesses. Volume discounts available for regular maintenance programs."

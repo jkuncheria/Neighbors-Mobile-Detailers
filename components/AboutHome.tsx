@@ -29,13 +29,13 @@ const AboutHome: React.FC = () => {
               We protect your vehicle with precision, quality, and care every time.
             </h2>
             <p className="text-lg text-gray-300 mb-4 leading-relaxed">
-              We are Austin's trusted auto detailing and protection specialists. Our certified technicians deliver premium ceramic coatings, paint protection film, window tinting, and professional detailing services. We treat every vehicle like it's our own.
+              We are Austin's trusted auto detailing and protection specialists. Our certified technicians deliver premium ceramic coatings, paint correction, and professional detailing services. We treat every vehicle like it's our own.
             </p>
             
             <div className="bg-stone-800/50 rounded-xl p-6 mb-6 border border-[#FF9E2C]/30">
               <h3 className="font-bold mb-2" style={{ color: '#FF9E2C' }}>What we do best</h3>
               <p className="text-gray-400 text-sm">
-                From paint protection film and ceramic coatings to full vehicle wraps and professional detailing, we deliver showroom-quality results. Certified installers, premium products, and industry-leading warranties.
+                From ceramic coatings to paint correction and professional detailing, we deliver showroom-quality results. Certified installers, premium products, and industry-leading warranties.
               </p>
             </div>
 

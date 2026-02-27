@@ -52,7 +52,7 @@ const TempeLiving: React.FC = () => {
         title="Tempe Living Members | Exclusive 20% Off Auto Detailing | Neighbors Mobile Detailers"
         description="Exclusive offer for Tempe Living Facebook group members! Get 20% off all auto detailing services. Ceramic coatings, paint correction, window tinting & more. Call (512) 679-7853 and mention Tempe Living!"
         keywords="Tempe auto detailing discount, Tempe Living special offer, ceramic coating Tempe, auto detailing Tempe AZ, car detailing discount Austin"
-        canonical="https://www.oldtownautospa.com/tempe-living"
+        canonical="https://www.neighborsmobiledetailer.com/tempe-living"
       />
 
       {/* Hero Section with Welcome Message */}

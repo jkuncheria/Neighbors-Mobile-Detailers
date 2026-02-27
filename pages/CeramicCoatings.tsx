@@ -67,7 +67,7 @@ const CeramicCoatings: React.FC = () => {
         title="Ceramic Coating Austin | Professional Auto Ceramic Coating"
         description="Professional ceramic coating services in Austin. Ceramic Pro, Gtechniq, IGL certified installers. Long-lasting paint protection with incredible gloss. Free quotes."
         keywords="ceramic coating Austin, auto ceramic coating, Ceramic Pro Austin, paint protection coating, nano ceramic coating, car coating Austin"
-        canonical="https://www.oldtownautospa.com/ceramic-coatings"
+        canonical="https://www.neighborsmobiledetailer.com/ceramic-coatings"
         serviceSchema={{
           name: "Ceramic Coating",
           description: "Professional nano-ceramic coating that provides long-lasting paint protection with hydrophobic properties and incredible gloss."

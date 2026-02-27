@@ -72,8 +72,8 @@ const Header: React.FC = () => {
           <div className="flex-1 flex justify-center md:col-start-2 md:col-end-3 md:flex md:justify-center">
             <Link to="/" onClick={scrollToTop} className="flex items-center justify-center group">
               <img 
-                src="/newlogo.png" 
-                alt="Neighbors Mobile Detailers - Ceramic Coatings, PPF, Window Tint" 
+                src="/geologo.PNG" 
+                alt="Neighbors Mobile Detailers - Auto Detailing, Ceramic Coatings, Paint Correction" 
                 className="h-14 md:h-24 lg:h-28 w-auto object-contain"
               />
             </Link>

@@ -67,7 +67,7 @@ const InteriorProtection: React.FC = () => {
         title="Interior Protection Austin | Leather Coating | Fabric Protection"
         description="Professional interior protection in Austin. Leather ceramic coating, fabric protection, UV protection. Keep your interior looking new. Free quotes."
         keywords="interior protection Austin, leather coating, fabric protection, car interior coating, leather ceramic coating, stain protection"
-        canonical="https://www.oldtownautospa.com/interior-protection"
+        canonical="https://www.neighborsmobiledetailer.com/interior-protection"
       />
       <section className="py-24 bg-white px-4 md:px-16">
         <div className="max-w-7xl mx-auto">

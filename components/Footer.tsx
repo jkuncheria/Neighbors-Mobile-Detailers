@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
           <div>
             <Link to="/" onClick={scrollToTop} className="inline-block mb-4 group">
               <img 
-                src="/newlogo.png" 
+                src="/geologo.PNG" 
                 alt="Neighbors Mobile Detailers" 
                 className="h-12 md:h-16 w-auto object-contain"
               />
@@ -62,27 +62,12 @@ const Footer: React.FC = () => {
                   Ceramic Coating
                 </Link>
               </li>
-                            <li>
-                <Link to="/vehicle-wraps" onClick={scrollToTop} className="hover:text-[#FF9E2C]">
-                  Vinyl Wrap
-                </Link>
-              </li>
-              <li>
-                <Link to="/window-tinting" onClick={scrollToTop} className="hover:text-[#FF9E2C]">
-                  Window Tint
-                </Link>
-              </li>
-              <li>
+                                          <li>
                 <Link to="/factory-finish-system" onClick={scrollToTop} className="hover:text-[#FF9E2C]">
                   Factory Finish System
                 </Link>
               </li>
-              <li>
-                <Link to="/fleet-washing" onClick={scrollToTop} className="hover:text-[#FF9E2C]">
-                  Fleet Washing
-                </Link>
-              </li>
-            </ul>
+                          </ul>
           </div>
 
           {/* Links Column 2 */}

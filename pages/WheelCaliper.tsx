@@ -66,7 +66,7 @@ const WheelCaliper: React.FC = () => {
         title="Wheel & Caliper Services Austin | Wheel Coating | Caliper Paint"
         description="Professional wheel and caliper services in Austin. Wheel ceramic coating, caliper powder coating, custom colors. Brake dust protection. Free quotes."
         keywords="wheel coating Austin, caliper painting Austin, brake caliper powder coating, wheel ceramic coating, custom caliper colors"
-        canonical="https://www.oldtownautospa.com/wheel-caliper"
+        canonical="https://www.neighborsmobiledetailer.com/wheel-caliper"
       />
       <section className="py-24 bg-white px-4 md:px-16">
         <div className="max-w-7xl mx-auto">

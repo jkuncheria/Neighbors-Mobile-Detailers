@@ -78,7 +78,7 @@ const FountainHillsAutoDetailing: React.FC = () => {
         title="Fountain Hills Auto Detailing | Mobile Car Detailing | Neighbors Mobile Detailers"
         description="Professional mobile auto detailing in Fountain Hills, AZ. We come to you! Ceramic coatings, paint correction, window tinting & PPF. Serving Sunridge Canyon, FireRock, Eagle Mountain & all Fountain Hills. Call (512) 679-7853."
         keywords="Fountain Hills auto detailing, mobile detailing Fountain Hills, car detailing Fountain Hills AZ, ceramic coating Fountain Hills, window tinting Fountain Hills, Sunridge Canyon detailing, FireRock auto detail"
-        canonical="https://www.oldtownautospa.com/fountain-hills-auto-detailing"
+        canonical="https://www.neighborsmobiledetailer.com/fountain-hills-auto-detailing"
         serviceSchema={{
           name: "Fountain Hills Auto Detailing Services",
           description: "Professional mobile auto detailing services in Fountain Hills, Arizona. Ceramic coatings, paint correction, and window tinting brought to your Fountain Hills home.",

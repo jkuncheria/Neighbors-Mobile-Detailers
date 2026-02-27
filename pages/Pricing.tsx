@@ -10,7 +10,7 @@ const Pricing: React.FC = () => {
         title="Pricing | Auto Detailing Prices Austin | Neighbors Mobile Detailers"
         description="View our complete pricing menu for auto detailing services. Transparent pricing for exterior, interior, ceramic coatings, paint correction, and specialty services in Austin."
         keywords="auto detailing prices Austin, car detailing cost, ceramic coating price, window tinting cost Austin, paint correction pricing"
-        canonical="https://www.oldtownautospa.com/pricing"
+        canonical="https://www.neighborsmobiledetailer.com/pricing"
       />
 
       {/* Hero Section */}

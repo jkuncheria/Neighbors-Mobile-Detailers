@@ -11,9 +11,6 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
     email: '',
     phone: '',
     inquiryType: 'general',
-    vehicleYear: '',
-    vehicleMake: '',
-    vehicleModel: '',
     message: ''
   });
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -28,10 +25,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
     { value: 'detailing', label: 'Auto Detailing' },
     { value: 'correction', label: 'Paint Correction' },
     { value: 'ceramic', label: 'Ceramic Coating' },
-    { value: 'ppf', label: 'Paint Protection Films' },
-    { value: 'wrap', label: 'Vinyl Wrap' },
-    { value: 'tint', label: 'Window Tint' },
-    { value: 'factory', label: 'Factory Finish System' },
+            { value: 'factory', label: 'Factory Finish System' },
     { value: 'other', label: 'Other Service' }
   ];
 
@@ -77,32 +71,19 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
         'detailing': 'Auto Detailing',
         'correction': 'Paint Correction',
         'ceramic': 'Ceramic Coating',
-        'ppf': 'Paint Protection Films',
-        'wrap': 'Vinyl Wrap',
-        'tint': 'Window Tint',
-        'factory': 'Factory Finish System',
+                        'factory': 'Factory Finish System',
         'other': 'Other Service'
       };
-
-      // Build vehicle info string
-      const vehicleInfo = [formData.vehicleYear, formData.vehicleMake, formData.vehicleModel]
-        .filter(Boolean)
-        .join(' ');
 
       // Prepare submission data
       const submissionData: Record<string, any> = {
         name: formData.name,
         email: formData.email,
+        phone: formData.phone,
         clientId: 'RL-4WC6AZML',
         projectType: projectTypeMap[formData.inquiryType] || formData.inquiryType,
         inquiryType: formData.inquiryType,
-        vehicleInfo: vehicleInfo || undefined,
       };
-
-      // Add optional fields if they have values
-      if (formData.phone) {
-        submissionData.phone = formData.phone;
-      }
       if (formData.message) {
         submissionData.message = formData.message;
       }
@@ -130,9 +111,6 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
         email: '',
         phone: '',
         inquiryType: 'general',
-        vehicleYear: '',
-        vehicleMake: '',
-        vehicleModel: '',
         message: ''
       });
 
@@ -260,7 +238,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <label htmlFor="phone" className="block text-sm font-bold text-white mb-2.5">
-                    Phone Number
+                    Phone Number <span className="text-red-500">*</span>
                   </label>
                   <input
                     type="tel"
@@ -268,6 +246,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
+                    required
                     className="w-full border-2 border-gray-700 rounded-xl px-5 py-3.5 focus:outline-none focus:border-[#FF9E2C] focus:ring-[#FF9E2C] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500 focus:bg-gray-800"
                     placeholder="(555) 123-4567"
                   />
@@ -319,40 +298,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                 </div>
               </div>
 
-              {/* Vehicle Information */}
-              <div className="mb-6">
-                <label className="block text-sm font-bold text-white mb-2.5">
-                  Vehicle Information <span className="text-gray-500 font-normal">(Optional)</span>
-                </label>
-                <div className="grid grid-cols-3 gap-3">
-                  <input
-                    type="text"
-                    name="vehicleYear"
-                    value={formData.vehicleYear}
-                    onChange={handleChange}
-                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#FF9E2C] focus:ring-[#FF9E2C] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
-                    placeholder="Year"
-                    maxLength={4}
-                  />
-                  <input
-                    type="text"
-                    name="vehicleMake"
-                    value={formData.vehicleMake}
-                    onChange={handleChange}
-                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#FF9E2C] focus:ring-[#FF9E2C] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
-                    placeholder="Make (e.g. Tesla)"
-                  />
-                  <input
-                    type="text"
-                    name="vehicleModel"
-                    value={formData.vehicleModel}
-                    onChange={handleChange}
-                    className="w-full border-2 border-gray-700 rounded-xl px-4 py-3.5 focus:outline-none focus:border-[#FF9E2C] focus:ring-[#FF9E2C] focus:ring-opacity-10 transition-all bg-gray-800 text-white placeholder-gray-500"
-                    placeholder="Model (e.g. Model 3)"
-                  />
-                </div>
-              </div>
-
+              
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-bold text-white mb-2.5">
                   Tell Us About Your Project <span className="text-red-500">*</span>

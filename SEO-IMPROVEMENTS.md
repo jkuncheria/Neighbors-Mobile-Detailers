@@ -8,23 +8,23 @@ This document outlines all SEO improvements made to the Neighbors Mobile Detaile
 ## 1. Domain & Business Information Fixes
 
 ### index.html
-- **Canonical URL**: Updated from `splashmobiledetail.com` → `www.oldtownautospa.com`
+- **Canonical URL**: Updated from `splashmobiledetail.com` → `www.neighborsmobiledetailer.com`
 - **Open Graph URLs**: Fixed all OG meta tags to use correct domain
 - **Twitter Card URLs**: Fixed all Twitter meta tags to use correct domain
 - **Phone Number**: Updated to `602-807-8989`
-- **Email**: Updated to `info@oldtownautospa.com`
+- **Email**: Updated to `info@neighborsmobiledetailer.com`
 - **Address Region**: Changed from `CO` → `AZ`
 - **Geo Coordinates**: Updated to Austin coordinates (33.4484, -112.0740)
 
 ### robots.txt
-- **Sitemap URL**: Fixed from `hmconstruction.com` → `www.oldtownautospa.com`
+- **Sitemap URL**: Fixed from `hmconstruction.com` → `www.neighborsmobiledetailer.com`
 
 ### sitemap.xml
 - Completely regenerated with correct Neighbors Mobile Detailers pages:
   - Home, Services, Auto Detailing, Ceramic Coatings, Window Tinting
   - Vehicle Wraps, Paint Correction, Factory Finish System, Fleet Washing
   - About, FAQ, Contact
-- Updated all URLs to use `https://www.oldtownautospa.com`
+- Updated all URLs to use `https://www.neighborsmobiledetailer.com`
 - Set appropriate priorities and change frequencies
 
 ---
@@ -33,7 +33,7 @@ This document outlines all SEO improvements made to the Neighbors Mobile Detaile
 
 ### SEO.tsx
 - Added `import React` to fix lint error
-- Fixed OG/Twitter image URLs from `hmconstruction.com` → `www.oldtownautospa.com`
+- Fixed OG/Twitter image URLs from `hmconstruction.com` → `www.neighborsmobiledetailer.com`
 - Updated default OG image from `/hmlogo.png` → `/logo.png`
 - Added **Service Schema** support for structured data
 
@@ -41,22 +41,22 @@ This document outlines all SEO improvements made to the Neighbors Mobile Detaile
 
 ## 3. Canonical URL Fixes (All Service Pages)
 
-Updated canonical URLs from `example.com` to `www.oldtownautospa.com`:
+Updated canonical URLs from `example.com` to `www.neighborsmobiledetailer.com`:
 
 | Page | Canonical URL |
 |------|---------------|
-| Auto Detailing | `https://www.oldtownautospa.com/auto-detailing` |
-| Ceramic Coatings | `https://www.oldtownautospa.com/ceramic-coatings` |
-| Window Tinting | `https://www.oldtownautospa.com/window-tinting` |
-| Vehicle Wraps | `https://www.oldtownautospa.com/vehicle-wraps` |
-| Paint Correction | `https://www.oldtownautospa.com/paint-correction` |
-| Factory Finish System | `https://www.oldtownautospa.com/factory-finish-system` |
-| Fleet Washing | `https://www.oldtownautospa.com/fleet-washing` |
-| Services | `https://www.oldtownautospa.com/services` |
-| Wheel & Caliper | `https://www.oldtownautospa.com/wheel-caliper` |
-| Interior Protection | `https://www.oldtownautospa.com/interior-protection` |
-| Paint Protection Film | `https://www.oldtownautospa.com/paint-protection-film` |
-| FAQ | `https://www.oldtownautospa.com/faq` |
+| Auto Detailing | `https://www.neighborsmobiledetailer.com/auto-detailing` |
+| Ceramic Coatings | `https://www.neighborsmobiledetailer.com/ceramic-coatings` |
+| Window Tinting | `https://www.neighborsmobiledetailer.com/window-tinting` |
+| Vehicle Wraps | `https://www.neighborsmobiledetailer.com/vehicle-wraps` |
+| Paint Correction | `https://www.neighborsmobiledetailer.com/paint-correction` |
+| Factory Finish System | `https://www.neighborsmobiledetailer.com/factory-finish-system` |
+| Fleet Washing | `https://www.neighborsmobiledetailer.com/fleet-washing` |
+| Services | `https://www.neighborsmobiledetailer.com/services` |
+| Wheel & Caliper | `https://www.neighborsmobiledetailer.com/wheel-caliper` |
+| Interior Protection | `https://www.neighborsmobiledetailer.com/interior-protection` |
+| Paint Protection Film | `https://www.neighborsmobiledetailer.com/paint-protection-film` |
+| FAQ | `https://www.neighborsmobiledetailer.com/faq` |
 
 ---
 
@@ -82,7 +82,7 @@ Each service page now includes:
     "@type": "LocalBusiness",
     "name": "Neighbors Mobile Detailers",
     "telephone": "602-807-8989",
-    "email": "info@oldtownautospa.com"
+    "email": "info@neighborsmobiledetailer.com"
   },
   "areaServed": ["Austin", "Scottsdale", "Paradise Valley", "Chandler", "Fountain Hills", "Anthem"]
 }
@@ -115,7 +115,7 @@ Added `loading="lazy"` attribute to images in:
   title="Neighbors Mobile Detailers | Austin Auto Detailing, Ceramic Coating & Window Tinting"
   description="Neighbors Mobile Detailers - Austin's premier auto detailing company. Professional ceramic coatings, window tinting, vehicle wraps, and paint correction. Serving Austin, Scottsdale, Paradise Valley, Chandler & Fountain Hills."
   keywords="Austin auto detailing, ceramic coating Austin, window tinting Austin, vehicle wraps Austin, paint correction Austin, Scottsdale detailing, Paradise Valley auto spa"
-  canonical="https://www.oldtownautospa.com"
+  canonical="https://www.neighborsmobiledetailer.com"
 />
 ```
 

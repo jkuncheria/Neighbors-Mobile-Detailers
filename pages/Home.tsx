@@ -16,10 +16,10 @@ const Home: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Neighbors Mobile Detailers | Austin Auto Detailing, Ceramic Coating & Window Tinting"
-        description="Neighbors Mobile Detailers - Austin's premier auto detailing company. Professional ceramic coatings, window tinting, vehicle wraps, and paint correction. Serving Austin, Scottsdale, Paradise Valley, Chandler & Fountain Hills."
-        keywords="Austin auto detailing, ceramic coating Austin, window tinting Austin, vehicle wraps Austin, paint correction Austin, Scottsdale detailing, Paradise Valley auto spa"
-        canonical="https://www.oldtownautospa.com"
+        title="Neighbors Mobile Detailers | Austin Auto Detailing & Ceramic Coating"
+        description="Neighbors Mobile Detailers - Austin's premier mobile auto detailing company. Professional ceramic coatings and paint correction. Serving Austin and surrounding areas."
+        keywords="Austin auto detailing, ceramic coating Austin, paint correction Austin, mobile detailing Austin"
+        canonical="https://www.neighborsmobiledetailer.com"
       />
       <Hero />
       {/* <ClientBanner /> */}

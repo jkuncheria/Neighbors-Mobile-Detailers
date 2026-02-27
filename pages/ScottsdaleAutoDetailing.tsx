@@ -65,7 +65,7 @@ const ScottsdaleAutoDetailing: React.FC = () => {
         title="Scottsdale Auto Detailing | Mobile Car Detailing & Ceramic Coating | Neighbors Mobile Detailers"
         description="Professional auto detailing services in Scottsdale, AZ. Mobile detailing, ceramic coatings, paint correction, window tinting & PPF. Serving North Scottsdale, Old Town & surrounding areas. Call (512) 679-7853 for a free quote!"
         keywords="Scottsdale auto detailing, mobile car detailing Scottsdale, ceramic coating Scottsdale, paint correction Scottsdale, window tinting Scottsdale, PPF Scottsdale, car wash Scottsdale, auto spa Scottsdale AZ"
-        canonical="https://www.oldtownautospa.com/scottsdale-auto-detailing"
+        canonical="https://www.neighborsmobiledetailer.com/scottsdale-auto-detailing"
         serviceSchema={{
           name: "Scottsdale Auto Detailing Services",
           description: "Professional mobile auto detailing, ceramic coating, paint correction, and window tinting services in Scottsdale, Arizona.",
@@ -105,7 +105,7 @@ const ScottsdaleAutoDetailing: React.FC = () => {
             </div>
             <div className="relative">
               <img
-                src="/services/auto-detailing.webp"
+                src="/services/auto-detailing.jpeg"
                 alt="Auto Detailing Services in Scottsdale, AZ"
                 className="rounded-2xl shadow-2xl w-full"
               />

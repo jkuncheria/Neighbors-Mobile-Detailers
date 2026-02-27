@@ -13,10 +13,7 @@ export const NAV_ITEMS: NavItem[] = [
       { label: 'Auto Detailing', href: '/auto-detailing' },
       { label: 'Paint Correction', href: '/paint-correction' },
       { label: 'Ceramic Coating', href: '/ceramic-coatings' },
-      { label: 'Vinyl Wrap', href: '/vehicle-wraps' },
-      { label: 'Window Tint', href: '/window-tinting' },
-      { label: 'Factory Finish System', href: '/factory-finish-system' },
-      { label: 'Fleet Washing', href: '/fleet-washing' },
+            { label: 'Factory Finish System', href: '/factory-finish-system' },
     ]
   },
   { 
@@ -47,12 +44,10 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const CATEGORIES: Category[] = [
-  { id: 'auto-detailing', name: 'Auto Detailing', image: '/services/auto-detailing.webp' },
+  { id: 'auto-detailing', name: 'Auto Detailing', image: '/services/auto-detailing.jpeg' },
   { id: 'paint-correction', name: 'Paint Correction', image: '/services/paint-correction.webp' },
   { id: 'ceramic-coatings', name: 'Ceramic Coating', image: '/services/ceramic-coating.webp' },
-    { id: 'vehicle-wraps', name: 'Vinyl Wrap', image: '/services/vinyl-wrap.webp' },
-  { id: 'window-tinting', name: 'Window Tint', image: '/services/window-tint.webp' },
-  { id: 'factory-finish-system', name: 'Factory Finish System', image: '/services/factory-finish.webp' },
+      { id: 'factory-finish-system', name: 'Factory Finish System', image: '/services/factory-finish.webp' },
 ];
 
 export const DIFFERENCE_FEATURES: Feature[] = [

@@ -10,14 +10,11 @@ import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import Services from './pages/Services';
 import CeramicCoatings from './pages/CeramicCoatings';
-import WindowTinting from './pages/WindowTinting';
-import VehicleWraps from './pages/VehicleWraps';
 import AutoDetailing from './pages/AutoDetailing';
 import InteriorProtection from './pages/InteriorProtection';
 import WheelCaliper from './pages/WheelCaliper';
 import PaintCorrection from './pages/PaintCorrection';
 import FactoryFinishSystem from './pages/FactoryFinishSystem';
-import FleetWashing from './pages/FleetWashing';
 import Gallery from './pages/Gallery';
 import ScottsdaleAutoDetailing from './pages/ScottsdaleAutoDetailing';
 import TempeAutoDetailing from './pages/TempeAutoDetailing';
@@ -55,15 +52,12 @@ const App: React.FC = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/faq" element={<FAQ />} />
                         <Route path="/ceramic-coatings" element={<CeramicCoatings />} />
-            <Route path="/window-tinting" element={<WindowTinting />} />
-            <Route path="/vehicle-wraps" element={<VehicleWraps />} />
-            <Route path="/auto-detailing" element={<AutoDetailing />} />
+                        <Route path="/auto-detailing" element={<AutoDetailing />} />
             <Route path="/interior-protection" element={<InteriorProtection />} />
             <Route path="/wheel-caliper" element={<WheelCaliper />} />
             <Route path="/paint-correction" element={<PaintCorrection />} />
             <Route path="/factory-finish-system" element={<FactoryFinishSystem />} />
-            <Route path="/fleet-washing" element={<FleetWashing />} />
-            <Route path="/gallery" element={<Gallery />} />
+                        <Route path="/gallery" element={<Gallery />} />
             <Route path="/scottsdale-auto-detailing" element={<ScottsdaleAutoDetailing />} />
             <Route path="/tempe-auto-detailing" element={<TempeAutoDetailing />} />
             <Route path="/anthem-auto-detailing" element={<AnthemAutoDetailing />} />

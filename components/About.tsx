@@ -31,10 +31,7 @@ const About: React.FC = () => {
     'Exterior Detailing',
     'Paint Corrections',
     'Ceramic Coatings',
-    'Paint Protection Films',
-    'Window Tinting',
-    'Vinyl Wraps',
-    'Factory Finish System'
+            'Factory Finish System'
   ];
 
   return (
@@ -44,7 +41,7 @@ const About: React.FC = () => {
         {/* Hero Section */}
         <div className="relative h-[400px] md:h-[500px] rounded-2xl overflow-hidden mb-16">
           <img 
-            src="/services/auto-detailing.webp" 
+            src="/services/auto-detailing.jpeg" 
             alt="About Us - Professional Auto Detailing and Protection" 
             loading="lazy"
             className="w-full h-full object-cover"

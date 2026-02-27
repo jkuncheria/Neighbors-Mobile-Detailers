@@ -8,9 +8,11 @@ const PflugervilleAutoDetailing: React.FC = () => {
     { title: 'Auto Detailing', description: 'Complete interior and exterior detailing services to restore your vehicle to showroom condition.', href: '/auto-detailing' },
     { title: 'Ceramic Coating', description: 'Long-lasting protection with professional-grade ceramic coatings that shield your paint for years.', href: '/ceramic-coatings' },
     { title: 'Paint Correction', description: 'Remove swirls, scratches, and oxidation to reveal a flawless, mirror-like finish.', href: '/paint-correction' },
-    { title: 'Window Tinting', description: 'Premium window films for heat rejection, UV protection, and enhanced privacy.', href: '/window-tinting' },
-    { title: 'Paint Protection Film', description: 'Invisible protection against rock chips, scratches, and road debris.', href: '/factory-finish-system' },
-    { title: 'Vehicle Wraps', description: 'Custom vinyl wraps for color changes, commercial branding, or unique designs.', href: '/vehicle-wraps' }
+    {
+      title: 'Factory Finish System',
+      description: 'Complete paint protection and restoration to maintain your vehicle\'s showroom finish.',
+      href: '/factory-finish-system'
+    }
   ];
 
   const benefits = [
@@ -47,7 +49,7 @@ const PflugervilleAutoDetailing: React.FC = () => {
               </div>
             </div>
             <div className="relative">
-              <img src="/services/auto-detailing.webp" alt="Auto Detailing Services in Pflugerville, TX" className="rounded-2xl shadow-2xl w-full" />
+              <img src="/services/auto-detailing.jpeg" alt="Auto Detailing Services in Pflugerville, TX" className="rounded-2xl shadow-2xl w-full" />
               <div className="absolute -bottom-6 -left-6 bg-stone-900 rounded-xl p-4 border border-stone-800 shadow-lg">
                 <div className="flex items-center gap-2 mb-2">{[...Array(5)].map((_, i) => (<Star key={i} className="w-5 h-5 text-[#FF9E2C] fill-[#FF9E2C]" />))}</div>
                 <p className="text-white font-semibold">5-Star Rated in Pflugerville</p>

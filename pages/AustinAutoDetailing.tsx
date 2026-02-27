@@ -21,19 +21,9 @@ const AustinAutoDetailing: React.FC = () => {
       href: '/paint-correction'
     },
     {
-      title: 'Window Tinting',
-      description: 'Premium window films for heat rejection, UV protection, and enhanced privacy.',
-      href: '/window-tinting'
-    },
-    {
-      title: 'Paint Protection Film',
-      description: 'Invisible protection against rock chips, scratches, and road debris.',
+      title: 'Factory Finish System',
+      description: 'Complete paint protection and restoration to maintain your vehicle\'s showroom finish.',
       href: '/factory-finish-system'
-    },
-    {
-      title: 'Vehicle Wraps',
-      description: 'Custom vinyl wraps for color changes, commercial branding, or unique designs.',
-      href: '/vehicle-wraps'
     }
   ];
 
@@ -63,12 +53,12 @@ const AustinAutoDetailing: React.FC = () => {
     <>
       <SEO
         title="Austin Auto Detailing | Mobile Car Detailing & Ceramic Coating | Neighbors Mobile Detailers"
-        description="Professional auto detailing services in Austin, TX. Mobile detailing, ceramic coatings, paint correction, window tinting & PPF. Serving all Austin neighborhoods. Call (512) 679-7853 for a free quote!"
-        keywords="Austin auto detailing, mobile car detailing Austin, ceramic coating Austin, paint correction Austin, window tinting Austin, PPF Austin, car wash Austin, auto spa Austin TX"
+        description="Professional auto detailing services in Austin, TX. Mobile detailing, ceramic coatings, and paint correction. Serving all Austin neighborhoods. Call (512) 679-7853 for a free quote!"
+        keywords="Austin auto detailing, mobile car detailing Austin, ceramic coating Austin, paint correction Austin, car wash Austin, auto spa Austin TX"
         canonical="https://www.neighborsmobiledetailing.com/austin-auto-detailing"
         serviceSchema={{
           name: "Austin Auto Detailing Services",
-          description: "Professional mobile auto detailing, ceramic coating, paint correction, and window tinting services in Austin, Texas.",
+          description: "Professional mobile auto detailing, ceramic coating, and paint correction services in Austin, Texas.",
           provider: "Neighbors Mobile Detailers",
           areaServed: ["Austin", "Downtown Austin", "North Austin", "South Austin", "East Austin"],
           priceRange: "$$"
@@ -105,7 +95,7 @@ const AustinAutoDetailing: React.FC = () => {
             </div>
             <div className="relative">
               <img
-                src="/services/auto-detailing.webp"
+                src="/services/auto-detailing.jpeg"
                 alt="Auto Detailing Services in Austin, TX"
                 className="rounded-2xl shadow-2xl w-full"
               />

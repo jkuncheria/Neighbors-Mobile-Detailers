@@ -10,7 +10,7 @@ const MembersPricing: React.FC = () => {
         title="Members Pricing | Exclusive Auto Detailing Prices | Neighbors Mobile Detailers"
         description="Exclusive member pricing for auto detailing services. View our complete pricing menu for exterior, interior, ceramic coatings, and specialty services."
         keywords="auto detailing prices, car detailing cost, ceramic coating price, window tinting cost Austin"
-        canonical="https://www.oldtownautospa.com/members-pricing"
+        canonical="https://www.neighborsmobiledetailer.com/members-pricing"
       />
 
       {/* Hero Section */}

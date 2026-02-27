@@ -67,7 +67,7 @@ const PaintProtectionFilm: React.FC = () => {
         title="Paint Protection Film Austin | PPF Installation | Clear Bra"
         description="Professional paint protection film (PPF) installation in Austin. XPEL, 3M, SunTek clear bra protection. Self-healing film, rock chip protection. Free quotes."
         keywords="paint protection film Austin, PPF Austin, clear bra Austin, XPEL Austin, 3M PPF, rock chip protection, paint protection"
-        canonical="https://www.oldtownautospa.com/paint-protection-film"
+        canonical="https://www.neighborsmobiledetailer.com/paint-protection-film"
       />
       <section className="py-24 bg-white px-4 md:px-16">
         <div className="max-w-7xl mx-auto">

@@ -32,7 +32,7 @@ const FAQ: React.FC = () => {
       questions: [
         {
           question: 'What detailing services do you offer?',
-          answer: 'We offer comprehensive auto detailing services including interior detailing, exterior detailing, paint correction, ceramic coatings, paint protection films (PPF), vinyl wraps, window tinting, and our Factory Finish System. Each service is tailored to meet your vehicle\'s specific needs.'
+          answer: 'We offer comprehensive auto detailing services including interior detailing, exterior detailing, paint correction, ceramic coatings, and our Factory Finish System. Each service is tailored to meet your vehicle\'s specific needs.'
         },
         {
           question: 'How long does a full detail take?',
@@ -49,17 +49,13 @@ const FAQ: React.FC = () => {
       ]
     },
     {
-      category: 'Ceramic Coating & PPF',
+      category: 'Ceramic Coating',
       questions: [
         {
           question: 'What is ceramic coating?',
           answer: 'Ceramic coating is a liquid polymer that bonds to your vehicle\'s paint, creating a protective layer that repels water, dirt, and UV rays. It provides long-lasting protection (2-7+ years depending on the package) and makes your car easier to clean while maintaining that showroom shine.'
         },
-        {
-          question: 'What is Paint Protection Film (PPF)?',
-          answer: 'Paint Protection Film is a clear, self-healing urethane film applied to your vehicle\'s paint to protect against rock chips, scratches, bug splatter, and other road debris. It\'s virtually invisible and preserves your paint\'s original appearance while providing superior protection.'
-        },
-        {
+                {
           question: 'How long does ceramic coating last?',
           answer: 'The longevity of ceramic coating depends on the product and package selected. Our coatings range from 1-year entry-level protection to 7+ year professional-grade options. With proper maintenance, you can maximize the lifespan of your coating.'
         },
@@ -86,28 +82,7 @@ const FAQ: React.FC = () => {
         }
       ]
     },
-    {
-      category: 'Vinyl Wraps & Window Tint',
-      questions: [
         {
-          question: 'What are the benefits of a vinyl wrap?',
-          answer: 'Vinyl wraps offer a cost-effective way to change your vehicle\'s color without permanent paint, protect your original paint from UV damage and minor scratches, and can be removed to reveal the preserved paint underneath. They\'re available in countless colors and finishes including gloss, matte, satin, and specialty textures.'
-        },
-        {
-          question: 'How long does a vinyl wrap last?',
-          answer: 'A quality vinyl wrap typically lasts 5-7 years with proper care. Factors like sun exposure, washing habits, and storage conditions can affect longevity. We use premium vinyl brands like 3M and Avery Dennison for the best durability and appearance.'
-        },
-        {
-          question: 'What window tint levels do you offer?',
-          answer: 'We offer various tint levels from 5% (limo tint) to 70% (light tint), plus ceramic and carbon film options. Our team will help you choose the right tint level based on your preferences, local regulations, and the specific benefits you\'re looking for like heat rejection or UV protection.'
-        },
-        {
-          question: 'Is window tint legal in Texass?',
-          answer: 'Texass has specific window tint laws. Front side windows must allow more than 27% light transmission, while back side and rear windows can be any darkness. We\'ll help you choose a tint that meets legal requirements while achieving your desired look and protection.'
-        }
-      ]
-    },
-    {
       category: 'Pricing & Booking',
       questions: [
         {
@@ -124,7 +99,7 @@ const FAQ: React.FC = () => {
         },
         {
           question: 'Do you offer warranties on your services?',
-          answer: 'Yes! Our ceramic coatings and PPF installations come with manufacturer warranties that vary based on the product and package selected. We\'ll explain all warranty details and provide documentation when your service is completed.'
+          answer: 'Yes! Our ceramic coatings come with manufacturer warranties that vary based on the product and package selected. We\'ll explain all warranty details and provide documentation when your service is completed.'
         }
       ]
     }

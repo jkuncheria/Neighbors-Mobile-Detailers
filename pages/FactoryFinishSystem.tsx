@@ -67,7 +67,7 @@ const FactoryFinishSystem: React.FC = () => {
         title="Factory Finish System Austin | Professional Paint Restoration"
         description="Professional Factory Finish System services in Austin. Restore your vehicle's showroom appearance with our expert paint restoration and protection services. Free quotes."
         keywords="factory finish system Austin, paint restoration Austin, showroom finish, car paint protection, auto detailing Austin"
-        canonical="https://www.oldtownautospa.com/factory-finish-system"
+        canonical="https://www.neighborsmobiledetailer.com/factory-finish-system"
         serviceSchema={{
           name: "Factory Finish System",
           description: "Comprehensive paint restoration system that restores your vehicle to showroom-quality finish with professional-grade products and techniques."

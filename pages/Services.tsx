@@ -119,7 +119,7 @@ const Services: React.FC = () => {
         title="Auto Detailing & Protection Services Austin | PPF, Ceramic, Tint, Wraps"
         description="Complete auto protection services in Austin. Paint protection film, ceramic coatings, window tinting, vehicle wraps, detailing, and paint correction. Free quotes."
         keywords="auto detailing Austin, PPF Austin, ceramic coating Austin, window tinting Austin, vehicle wraps Austin, paint correction Austin"
-        canonical="https://www.oldtownautospa.com/services"
+        canonical="https://www.neighborsmobiledetailer.com/services"
       />
       <section className="py-24 bg-stone-950 px-4 md:px-16">
         <div className="max-w-7xl mx-auto">

@@ -77,7 +77,7 @@ const AnthemAutoDetailing: React.FC = () => {
         title="Anthem Auto Detailing | Mobile Car Detailing North Austin | Neighbors Mobile Detailers"
         description="Professional mobile auto detailing in Anthem, AZ. We come to your Anthem home! Ceramic coatings, paint correction, window tinting & PPF. Serving Anthem Country Club, Parkside & all Anthem neighborhoods. Call (512) 679-7853."
         keywords="Anthem auto detailing, mobile detailing Anthem AZ, car detailing Anthem, ceramic coating Anthem, window tinting Anthem Arizona, Anthem Country Club detailing, North Austin auto detailing"
-        canonical="https://www.oldtownautospa.com/anthem-auto-detailing"
+        canonical="https://www.neighborsmobiledetailer.com/anthem-auto-detailing"
         serviceSchema={{
           name: "Anthem Auto Detailing Services",
           description: "Professional mobile auto detailing services in Anthem, Arizona. Ceramic coatings, paint correction, and window tinting brought directly to your Anthem home.",

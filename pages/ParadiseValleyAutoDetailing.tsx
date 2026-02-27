@@ -82,7 +82,7 @@ const ParadiseValleyAutoDetailing: React.FC = () => {
         title="Paradise Valley Auto Detailing | Luxury & Exotic Car Detailing | Neighbors Mobile Detailers"
         description="Elite auto detailing for Paradise Valley's luxury and exotic vehicles. Specialized care for Ferrari, Lamborghini, Porsche, Bentley & more. Ceramic coatings, paint correction, PPF. Private estate service. Call (512) 679-7853."
         keywords="Paradise Valley auto detailing, luxury car detailing Paradise Valley, exotic car detailing Arizona, Ferrari detailing Austin, Lamborghini detailing, ceramic coating Paradise Valley, PPF exotic cars, high-end auto detailing"
-        canonical="https://www.oldtownautospa.com/paradise-valley-auto-detailing"
+        canonical="https://www.neighborsmobiledetailer.com/paradise-valley-auto-detailing"
         serviceSchema={{
           name: "Paradise Valley Luxury Auto Detailing",
           description: "Elite mobile auto detailing services for luxury and exotic vehicles in Paradise Valley, Arizona. Specialized care for high-end automobiles.",

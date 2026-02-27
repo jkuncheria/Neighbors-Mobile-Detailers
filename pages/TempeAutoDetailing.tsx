@@ -77,7 +77,7 @@ const TempeAutoDetailing: React.FC = () => {
         title="Tempe Auto Detailing | Mobile Car Detailing Near ASU | Neighbors Mobile Detailers"
         description="Professional auto detailing in Tempe, AZ. Mobile detailing services near ASU, Tempe Marketplace & downtown. Ceramic coatings, paint correction, window tinting. Student discounts available! Call (512) 679-7853."
         keywords="Tempe auto detailing, car detailing near ASU, mobile detailing Tempe, ceramic coating Tempe, window tinting Tempe AZ, paint correction Tempe, ASU car detailing, Tempe Marketplace auto detail"
-        canonical="https://www.oldtownautospa.com/tempe-auto-detailing"
+        canonical="https://www.neighborsmobiledetailer.com/tempe-auto-detailing"
         serviceSchema={{
           name: "Tempe Auto Detailing Services",
           description: "Professional mobile auto detailing, ceramic coating, and window tinting services in Tempe, Arizona. Serving ASU students, residents, and businesses.",

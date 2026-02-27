@@ -21,19 +21,9 @@ const LagoVistaAutoDetailing: React.FC = () => {
       href: '/paint-correction'
     },
     {
-      title: 'Window Tinting',
-      description: 'Premium window films for heat rejection, UV protection, and enhanced privacy.',
-      href: '/window-tinting'
-    },
-    {
-      title: 'Paint Protection Film',
-      description: 'Invisible protection against rock chips, scratches, and road debris.',
+      title: 'Factory Finish System',
+      description: 'Complete paint protection and restoration to maintain your vehicle\'s showroom finish.',
       href: '/factory-finish-system'
-    },
-    {
-      title: 'Vehicle Wraps',
-      description: 'Custom vinyl wraps for color changes, commercial branding, or unique designs.',
-      href: '/vehicle-wraps'
     }
   ];
 
@@ -105,7 +95,7 @@ const LagoVistaAutoDetailing: React.FC = () => {
             </div>
             <div className="relative">
               <img
-                src="/services/auto-detailing.webp"
+                src="/services/auto-detailing.jpeg"
                 alt="Auto Detailing Services in Lago Vista, TX"
                 className="rounded-2xl shadow-2xl w-full"
               />

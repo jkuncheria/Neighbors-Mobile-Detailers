@@ -82,7 +82,7 @@ const AutoDetailing: React.FC = () => {
         title="Auto Detailing Austin | Professional Car Detailing Services"
         description="Professional auto detailing in Austin. Interior and exterior detailing, paint correction, ceramic coating prep. Mobile detailing available. Free quotes."
         keywords="auto detailing Austin, car detailing Austin, interior detailing, exterior detailing, paint correction, mobile detailing"
-        canonical="https://www.oldtownautospa.com/auto-detailing"
+        canonical="https://www.neighborsmobiledetailer.com/auto-detailing"
         serviceSchema={{
           name: "Auto Detailing",
           description: "Professional interior and exterior auto detailing services including paint correction, ceramic coating prep, and full vehicle restoration."
@@ -117,7 +117,7 @@ const AutoDetailing: React.FC = () => {
             <div className="relative">
               <div className="overflow-hidden h-[500px] md:h-[600px] rounded-2xl shadow-2xl">
                 <img 
-                  src="/services/auto-detailing.webp" 
+                  src="/services/auto-detailing.jpeg" 
                   alt="Professional Auto Detailing in Austin" 
                   className="w-full h-full object-cover"
                   loading="lazy"

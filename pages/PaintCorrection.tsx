@@ -71,7 +71,7 @@ const PaintCorrection: React.FC = () => {
         title="Paint Correction Austin | Swirl Removal | Polish & Buff"
         description="Professional paint correction in Austin. Remove swirls, scratches, water spots. Multi-stage polishing. Prep for ceramic coating. Free quotes."
         keywords="paint correction Austin, swirl removal, scratch removal, car polishing Austin, paint restoration"
-        canonical="https://www.oldtownautospa.com/paint-correction"
+        canonical="https://www.neighborsmobiledetailer.com/paint-correction"
         serviceSchema={{
           name: "Paint Correction",
           description: "Multi-stage paint correction to remove swirls, scratches, water spots, and oxidation, restoring your paint to a flawless mirror finish."

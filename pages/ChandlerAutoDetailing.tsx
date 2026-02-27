@@ -78,7 +78,7 @@ const ChandlerAutoDetailing: React.FC = () => {
         title="Chandler Auto Detailing | Mobile Car Detailing East Valley | Neighbors Mobile Detailers"
         description="Professional auto detailing in Chandler, AZ. Mobile service to your home or office. Ceramic coatings, paint correction, window tinting. Serving Ocotillo, Downtown Chandler, Price Corridor & Sun Lakes. Call (512) 679-7853."
         keywords="Chandler auto detailing, mobile car detailing Chandler, ceramic coating Chandler AZ, window tinting Chandler, paint correction East Valley, Ocotillo detailing, Price Corridor auto detail, Chandler car wash"
-        canonical="https://www.oldtownautospa.com/chandler-auto-detailing"
+        canonical="https://www.neighborsmobiledetailer.com/chandler-auto-detailing"
         serviceSchema={{
           name: "Chandler Auto Detailing Services",
           description: "Professional mobile auto detailing services in Chandler, Arizona. Serving families and businesses throughout the East Valley.",
@@ -121,7 +121,7 @@ const ChandlerAutoDetailing: React.FC = () => {
             </div>
             <div className="relative">
               <img
-                src="/services/auto-detailing.webp"
+                src="/services/auto-detailing.jpeg"
                 alt="Auto Detailing Services in Chandler Arizona"
                 className="rounded-2xl shadow-2xl w-full"
               />

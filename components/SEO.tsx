@@ -81,7 +81,7 @@ const SEO: React.FC<SEOProps> = ({
 
     updateOGTag('og:title', title);
     updateOGTag('og:description', description);
-    updateOGTag('og:image', `https://www.oldtownautospa.com${ogImage}`);
+    updateOGTag('og:image', `https://www.neighborsmobiledetailer.com${ogImage}`);
     if (canonical) {
       updateOGTag('og:url', canonical);
     }
@@ -101,7 +101,7 @@ const SEO: React.FC<SEOProps> = ({
 
     updateTwitterTag('twitter:title', title);
     updateTwitterTag('twitter:description', description);
-    updateTwitterTag('twitter:image', `https://www.oldtownautospa.com${ogImage}`);
+    updateTwitterTag('twitter:image', `https://www.neighborsmobiledetailer.com${ogImage}`);
 
     // Add Service Schema if provided
     if (serviceSchema) {
